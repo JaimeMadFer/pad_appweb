@@ -1,0 +1,28 @@
+
+input[type="text"] {
+    position: relative;
+    left: 8%;
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    position: relative;
+    left: 8%;
+  }
+
+.allTabs {
+    text-align: center;
+}
+
+.tab {
+    display: inline-block;
+}
