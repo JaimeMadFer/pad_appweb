@@ -52,3 +52,8 @@ button {
 .texto-caja {
     margin-left: 10px;
 }
+
+p[id="sinResultados"] {
+    position: relative;
+    left: 8%;
+}

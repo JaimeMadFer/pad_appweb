@@ -23,7 +23,9 @@ export function ApiUtil({datosConsulta})
 
         // q: {inauthor: datosConsulta.authors, intitle: datosConsulta.title}
         //await axios.get(baseUrl, {params: { q: datos, printType: datosConsulta.typeSearch, maxResults: 5 } })
-        await axios.get(`https://www.googleapis.com/books/v1/volumes?q=+intitle:${datosConsulta.title}+inauthor:${datosConsulta.authors}&printType=${datosConsulta.typeSearch}&maxResults=20`)
+        
+        // +intitle:
+        await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${datosConsulta.title}+inauthor:${datosConsulta.authors}&printType=${datosConsulta.typeSearch}&maxResults=20`)
         .then((res) => {
             state(res.data.items);
             // console.log(res.data.items)
@@ -44,7 +46,7 @@ export function ApiUtil({datosConsulta})
         let final = [];
         if (authors != null)
         {
-            console.log(authors);
+            // console.log(authors);
             authors.map((autor, index) => (
                 <>
                     {final.push(autor)}
@@ -80,7 +82,7 @@ export function ApiUtil({datosConsulta})
                     </div>
                 ))
                 ) : 
-                ('No results found')
+                (<p id="sinResultados">No results found</p>)
             }
 
         </>
