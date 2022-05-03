@@ -26,3 +26,29 @@ button {
 .tab {
     display: inline-block;
 }
+
+.contenedorCaja{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.caja-principal{
+    width: 80%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    height: 120px;
+}
+
+.imagen{
+    flex-shrink: 0;
+}
+
+.texto-caja {
+    margin-left: 10px;
+}
