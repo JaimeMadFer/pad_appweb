@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pad_appweb/static/css/main.5b0b9c0e.css",
-    "main.js": "/pad_appweb/static/js/main.d34cae7b.js",
+    "main.css": "/pad_appweb/static/css/main.c0e0cd32.css",
+    "main.js": "/pad_appweb/static/js/main.22bb1c4e.js",
     "index.html": "/pad_appweb/index.html",
-    "main.5b0b9c0e.css.map": "/pad_appweb/static/css/main.5b0b9c0e.css.map",
-    "main.d34cae7b.js.map": "/pad_appweb/static/js/main.d34cae7b.js.map"
+    "main.c0e0cd32.css.map": "/pad_appweb/static/css/main.c0e0cd32.css.map",
+    "main.22bb1c4e.js.map": "/pad_appweb/static/js/main.22bb1c4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b0b9c0e.css",
-    "static/js/main.d34cae7b.js"
+    "static/css/main.c0e0cd32.css",
+    "static/js/main.22bb1c4e.js"
   ]
 }
