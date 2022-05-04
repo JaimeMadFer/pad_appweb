@@ -24,6 +24,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    
+    <script>
+        // Comprobar si el navegador ejecuta service workers
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('%PUBLIC_URL%/sw.js').then(reg => {
+                    console.log('Todo bien:', reg)
+                }, function (err) {
+                    console.log('Fallo:', err)
+                })
+            })
+        }
+    </script>
+
     <title>React App</title>
   </head>
   <body>

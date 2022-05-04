@@ -56,4 +56,6 @@ button {
 p[id="sinResultados"] {
     position: relative;
     left: 8%;
+    width: 80%;
+    font-size: 20px;
 }
