@@ -5,7 +5,7 @@ export function ApiUtil({datosConsulta})
 {
     const fetchApi = async (state) => 
     {
-        await axios.get(`https://www.googleapis.com/books/v1/volumes?q=+intitle:${datosConsulta.title}+inauthor:${datosConsulta.authors}&printType=${datosConsulta.typeSearch}&maxResults=20`)
+        await axios.get(`https://www.googleapis.com/books/v1/volumes?q=${datosConsulta.title}+inauthor:${datosConsulta.authors}&printType=${datosConsulta.typeSearch}&maxResults=20`)
         .then((res) => {
             state(res.data.items);
         });
