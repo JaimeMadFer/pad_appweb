@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pad_appweb/static/css/main.c0e0cd32.css",
+    "main.js": "/pad_appweb/static/js/main.307c3341.js",
+    "index.html": "/pad_appweb/index.html",
+    "main.c0e0cd32.css.map": "/pad_appweb/static/css/main.c0e0cd32.css.map",
+    "main.307c3341.js.map": "/pad_appweb/static/js/main.307c3341.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0e0cd32.css",
+    "static/js/main.307c3341.js"
+  ]
+}
